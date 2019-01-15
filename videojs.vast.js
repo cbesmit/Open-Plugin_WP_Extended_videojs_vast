@@ -170,6 +170,7 @@
         if (player.vast.showControls) {
           player.controls(false);
         }
+        player.controls(true);
 
         // load linear ad sources and start playing them
         player.src(player.vast.sources);

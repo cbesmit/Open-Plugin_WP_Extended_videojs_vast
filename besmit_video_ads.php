@@ -18,7 +18,7 @@ function wp_BES_videoADS_add_css_js() {
 
     wp_enqueue_script(
         'video_js',
-        'http://vjs.zencdn.net/4.7.1/video.js',
+        plugins_url( '/video.js', __FILE__ ),
         array( 'jquery' )
     );
     wp_enqueue_script(

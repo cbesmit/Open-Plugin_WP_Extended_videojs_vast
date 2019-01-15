@@ -18,16 +18,10 @@ Se usa como shortcode dentro de wordpress
 ```
 
 width: pixeles
-
 height: pixeles
-
 mp4: url del archivo mp4, obligatorio
-
 webm: url del archivo webm, obligatorio
-
 vast: url del archivo xml VAST, obligatorio
-
-
 
 Al generar el reproductor de video automáticamente le quita el sonido y lo reproducte
 
